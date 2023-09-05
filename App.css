@@ -1,0 +1,39 @@
+:root{
+    --color-dark:#27292a;
+    --color-darkest:#1f2122;
+    --color-light:white;
+    --color-primary:#ec6090;
+    --color-bg-body:var(--color-darkest);
+    --color-bg-gris:#53474b;
+
+
+    --distance-primary:50px;
+    --padding-primary:var(--distance-primary);
+    --margin-primary:var(--distance-primary);
+    --border-radius-primary:calc(var(--distance-primary)/2);
+
+   /* --font-family-primary:'Niagara Solid', sans-serif; */
+   --font-family-primary:'Roboto';
+
+    --font-weight-bold:400;
+    --font-weight-normal:300;
+    
+}
+body{
+    /* background-color:var(--color-bg-body);  */
+   /* font-family: 'Poppins', sans-serif;*/
+    font-family: 'Niagara Solid', sans-serif;
+                                                
+}
+ /* 
+*{
+  font-weight: 200;
+}
+*/
+/* * {
+    margin: 0;
+    padding: 0s;
+
+  } */
+
+ 
