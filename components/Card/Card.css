@@ -1,0 +1,61 @@
+.section-header h4 {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+}
+.card-wrapper{
+    /* background-color: grey; */
+    border-radius: calc(var(--border-radius-primary)/2);
+    padding: calc(var(--padding-primary)/2);
+    margin: calc(var(--margin-primary)/5);
+ 
+
+}
+
+.most-popular-item-image{
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary)/4);
+    margin-bottom: calc(var(--margin-primary))/2;
+   
+
+
+}
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.most-popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.most-popular-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition:1s;
+
+
+    
+   
+   
+}
+
+.most-popular-item  {
+    flex: 1 ;
+    /* background: rgb(0,0,0); */
+    /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%); */
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: .5s;
+    margin:calc(var(--margin-primary)/5); 
+    width:18rem;
+
+  
+
+
+}
+.most-popular-item :hover{
+    background-position: 0% 0%;
+    transition: .5s;
+}

@@ -1,0 +1,136 @@
+.left-image2{
+	/* margin-top: 25px; */
+	/* background-image: url(../../assets/images/8M7A6457.JPG);    */
+
+    
+	/* background-position: center center; 
+	background-repeat: no-repeat;
+	  background-size: cover;  
+	background-attachment: fixed; */
+	 /* padding: 250px 0px;  */
+    /* border-radius:50%; */
+    /* width:800px;
+   max-width: 100%; */
+   /* height: auto;  */
+
+
+    /* object-fit: cover; */
+    float: left;
+    shape-outside: margin-box;
+    margin: 0px 20px 5px 0px;
+
+
+
+
+}
+.divalerte1{
+  background-color: #079347;
+}
+.divalerte2{
+  background-color: #1D4566;
+}
+.dansalerte1{
+ background-color: rgba(224, 224, 230, 0.774);
+ margin: 20px 0px 0px 20px;;
+}
+.dansalerte2{
+  background-color: rgba(224, 224, 230, 0.774);
+  margin: 0px 0px 0px 20px;
+
+  
+}
+.left-image2 img{
+    /* border-radius:50%;
+
+    object-fit: cover;
+    float: left;
+    shape-outside: margin-box;*/
+    margin: 15px 0px 20px 20px; 
+    /* width: 325px; */
+    height: 450px;
+    float: left;
+    
+}
+.princip{
+  /* background-color: #dddbd8; */
+  font-size: 12px;
+
+}
+.para{
+  float: left;
+text-align: justify;
+margin: 15px 80px 0px 0px; 
+/* width: 680px; */
+font-size: 12px;
+position: relative;
+}
+.right-content h2,span{
+	
+		text-align: center;
+		font-weight: bold;
+		color: gray;
+		padding-bottom: 50px;
+	 
+	 
+}
+.poscenter{
+    position: absolute;
+ /*  top: 50%;
+  left: 50%; */
+  bottom:-100px;
+  right: 50px;
+  transform: translate(-100%, -100%);
+  text-align: center;
+  border-color: peru;
+
+}
+.hide{
+    display: none;
+}
+.poscenter p{
+    text-align: center;
+  color: gray;
+  font-weight: bold; 
+}
+
+.pos{
+    position: absolute;
+    border-radius: 8px;
+ /*  top: 50%;
+  left: 50%; */
+  bottom:-430px;
+  right: 200px;
+  max-width: 350px;
+  background-color: rgba(6, 185, 36, 0.5);
+  
+}
+.posbt{
+    position: absolute;
+    border-radius: 8px;
+ /*  top: 50%;
+  left: 50%; */
+  bottom:-130px;
+  right: 350px;
+  max-width: 350px;
+}
+.pos p{
+    font-weight: bold; 
+}
+.btn1{
+    bottom:-410px;
+    left: 380px;
+    position: absolute;
+    float: left;
+
+}
+.ffl{
+    float: left;
+}
+.divimg2 {
+
+    float: left;
+    margin: 5px 0px 0px 20px; 
+
+    /* width: 550px; */
+    
+}

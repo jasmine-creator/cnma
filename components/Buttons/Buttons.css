@@ -1,0 +1,34 @@
+.button a {
+    color: var(--color-light);
+    font-size: 14px;
+    /* border-radius: var(--border-radius-primary); */
+    padding: 12px 70px ;
+    letter-spacing: 0.5 px;
+    transition: all .3s ;
+    text-decoration: none;
+    margin: 15px 30px;
+
+    
+    
+
+   }
+   
+ .primary-btn a {
+    background-color: lightslategray;
+    
+    
+ }
+   
+ .primary-btn a:hover {
+     background-color:var(--color-light);
+     color: var(--color-primary);
+ }
+ .s-btn a {
+    background-color:white; 
+    color: black;
+    font-size: larger;
+     border:1px solid black;
+ } 
+ .ai{
+   border-color: black;
+ }

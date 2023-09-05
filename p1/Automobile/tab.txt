@@ -1,0 +1,177 @@
+ import { useState } from "react";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
+ 
+ 
+  const [date, setDate] = useState(new Date());
+  const [key, setKey] = useState('home');
+  const [defaultActiveKey,setdefaultActiveKey]=useState("Profile")
+
+  console.log(defaultActiveKey);
+
+
+  return .....
+ 
+ 
+ 
+ <Container>
+    <br/>
+    <h2 style={{ textAlign:"center"}}> Devis en ligne </h2>
+    <hr/>
+
+    <h4>Veuillez remplir les informations suivantes :</h4>
+
+    
+    <Tabs
+      defaultActiveKey={defaultActiveKey}
+      id="fill-tab-example"
+      className="mb-3"
+      /* activeKey={key}
+      onSelect={(k) => setKey(k)}
+       */
+      // onSelect={(k) => setKey(k)}
+ 
+      fill
+    >
+      
+<Tab eventKey="Profile" title="Profile" >
+
+      <Form>
+      <Form.Group className="mb-3 w-50" controlId="formBasicEmail">
+        <Form.Label>Nom : </Form.Label>
+        <Form.Control type="text" placeholder="Enter votre nom" />
+       {/*  <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text> */}
+      </Form.Group>
+
+      <Form.Group className="mb-3 w-50" controlId="formBasicPassword">
+        <Form.Label>Prénom</Form.Label>
+        <Form.Control type="text" placeholder="Entrer votre Prénom" />
+      </Form.Group>
+      {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+        <Form.Check type="checkbox" label="Check me out" />
+      </Form.Group> */}
+      
+      <Form.Group controlId="duedate" className=' mb-3 w-50'>
+      <Form.Label>Date de naissance :</Form.Label>
+              <Form.Control
+                type="date"
+                name="duedate"
+                placeholder="Due date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+              />
+            </Form.Group>
+
+      <Form.Group className="mb-3 w-50">
+        <Form.Label>Sexe :</Form.Label>
+        <Form.Select >
+          <option>Homme</option><option>Femme</option>
+        </Form.Select>
+      </Form.Group>
+
+      <Form.Group className="mb-3 w-50">
+        <Form.Label>Wilaya :</Form.Label>
+        <Form.Select >
+        <option>Adrar</option>
+<option>Chlef</option><option>Laghouat</option><option>Oum El Bouaghi</option><option>Batna</option><option>Béjaïa</option>
+<option>Biskra</option>Béchar<option>Blida</option>Bouïra<option>Tamanrasset</option><option>Tébessa</option><option>Tlemcen</option><option>Tiaret</option><option>Tizi Ouzou</option>
+<option>Algiers</option><option>Djelfa</option><option>Jijel</option><option>Sétif</option><option>Saïda</option><option>Skikda</option><option>Sidi Bel Abbès</option>
+<option>Annaba</option><option>Guelma</option><option>Constantine</option><option>Médéa</option><option>Mostaganem</option><option>M'Sila</option><option>Mascara</option>
+<option>Ouargla</option><option>Oran</option><option>El Bayadh</option><option>Illizi</option><option>Bordj Bou Arréridj</option><option>Boumerdès</option><option>El Tarf</option>
+<option>Tindouf</option><option>Tissemsilt</option><option>El Oued</option><option>Khenchela</option><option>Souk Ahras</option><option></option>
+<option>Tipaza</option><option>Mila</option><option>Aïn Defla</option><option>Naâma</option><option>Aïn Témouchent</option><option>Ghardaïa</option>
+<option>Relizane</option><option>El M'Ghair</option><option>El Menia</option><option>Ouled Djellal</option><option>Bordj Baji Mokhtar</option><option>Béni Abbès</option>
+<option>Timimoun</option><option>Touggourt</option><option>Djanet</option><option>Ain Salah</option><option>Ain Guezzam</option>
+
+
+
+        </Form.Select>
+      </Form.Group>
+
+      <Form.Group className="mb-3 w-50" controlId="exampleForm.ControlInput1">
+        <Form.Label>Telephone :</Form.Label>
+        <Form.Control type="text" placeholder="" />
+      </Form.Group>
+
+
+      <Form.Group className="mb-3 w-50" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email :</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+    
+
+     
+
+      <Form.Group controlId="duedate" className='mb-3 w-50'>
+      <Form.Label>Date d'obtention du permis:</Form.Label>
+              <Form.Control
+                type="date"
+                name="duedate"
+                placeholder="Due date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+              />
+            </Form.Group>
+      <Button variant="primary" type="submit" onClick={() => setdefaultActiveKey("Vehicule")}
+      >
+                Suivant
+                </Button>
+
+        <button type="button" onClick={() => setdefaultActiveKey("Vehicule")    }  >sss</button>
+        <h2>{defaultActiveKey}</h2>
+
+                
+
+    </Form>
+      </Tab>
+      <Tab eventKey="Vehicule" title="Véhicule" >
+      
+      <Form>
+        <Form.Group className="mb-3 w-50">
+          <Form.Label>Puissance du vehicule</Form.Label>
+          <Form.Select >
+    <option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option> <option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option>
+          </Form.Select>
+        </Form.Group>
+
+      <Form.Group className="mb-3 w-50" controlId="exampleForm.ControlInput1">
+        <Form.Label>Valeur du Véhicule :</Form.Label>
+        <Form.Control type="text" placeholder="" />
+      </Form.Group>
+        <Button variant="primary" type="submit">
+                Suivant
+                </Button>
+        </Form>
+
+      </Tab>
+      <Tab eventKey="Formule" title="Formule" >
+        <Form>
+          <Form.Group className="mb-3 w-50">
+            <Form.Label>Durée (mois)</Form.Label>
+            <Form.Select >
+              <option>3</option><option>6</option><option>12</option>
+              </Form.Select>
+              </Form.Group>
+              <Button variant="primary" type="submit" >
+                Suivant
+                </Button>
+              </Form>
+      </Tab>
+     
+    </Tabs>
+
+
+
+{/*       Formule TOUT EN 1 (la tous risques)
+Formule CLASSIC AUTO (la dommage collision)
+Formule CLASSIC + (la dommage collision à valeur réelle)
+
+ */}
+ 
+    </Container>
+      
+      
+      

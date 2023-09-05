@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+/* 	padding-top: 4.8em;
+    background-color: #1f2122; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: var(--font-family-primary);
+    
+
+
+}
+.hero-main{
+    background: url('../../assets/images/contrat.jpg') no-repeat top right /cover; 
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+
+}
+.description{
+    background: url('../../assets/images/sinistre.jpg') no-repeat top right /cover;  
+    /* background-color: var(--color-dark); */
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+
+
+}
+.description h1{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    padding-bottom: 50px;
+ 
+ }
+ .description h2{
+    font-weight: bold;
+    color: gray;
+ 
+ }
+
+ .description h4{
+    font-weight: bold;
+    list-style-type: circle;
+ 
+ }
+.description p{
+   font-weight: bold;
+   font-size: large;
+
+}
+.hero-text{
+    max-width: 1000px;
+}
+
+.hero-Title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc(var(--margin-primary)/2);
+    font-weight: var(--font-weight-bold);
+
+}
+
+.hero-Title em {
+    font-style: normal;
+    /* color:var(--color-primary); */
+    color:green;
+}
+
+.hero-subtitle{
+    font-size: 20px;
+    /* color: white; */
+    color:  gray;
+    font-weight: var(--font-weight-normal);
+    margin-bottom: calc(var(--margin-primary)/2);
+}

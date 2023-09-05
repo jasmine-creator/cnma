@@ -1,0 +1,12 @@
+.carousel-caption {
+    top: 300;
+    bottom: auto;
+    left:1000;
+}
+
+.cr{
+margin-top: 10px;
+border: 2px solid black;
+background-color: aliceblue;
+
+}
